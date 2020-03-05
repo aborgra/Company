@@ -6,7 +6,7 @@ namespace classes {
     class Program {
         static void Main (string[] args) {
             // Create an instance of a company. Name it whatever you like.
-            Company nss = new Company ("NSS");
+            Company nss = new Company ("NSS", new DateTime (1990, 02, 03));
             // Create three employees
             Employee willy = new Employee ("Willy", "Metcalf", "Lazy person");
             Employee garrett = new Employee ("Garrett", "Freshwater", "Director of Whatever");
